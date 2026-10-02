@@ -44,11 +44,11 @@ Todo el contenido configurable está en `src/config/event.ts`:
 - `giftMessage`, `giftIdeas` y `giftDetails`: ideas de regalo editables.
 - `mapsEmbedUrl`: mapa visible con búsqueda de la dirección.
 
-La confirmación abre WhatsApp al +56 9 9563 0607 con un mensaje preparado y genera un QR del mismo enlace. La persona completa su nombre y pulsa enviar en WhatsApp. Álbum y música siguen pendientes.
+La confirmación abre WhatsApp al +56 9 9563 0607 con un mensaje preparado y genera un QR del mismo enlace. La persona pulsa enviar en WhatsApp; el mensaje no pide su nombre. Álbum y música siguen pendientes.
 
 ## Imágenes provisionales
 
-No se han recibido fotografías personales de Valentina. Hay cuatro fotografías decorativas generadas: pastel y globos, limonadas con lazos, traje de baño junto a la piscina, y maquillaje/perfume/accesorios. No representan fotografías reales del lugar ni pertenencias de Valentina. Las copas dibujadas de fecha y despedida se sustituyeron por fotografía.
+No se han recibido fotografías personales de Valentina. Hay 16 fotografías decorativas generadas, cada una utilizada en un único espacio: cumpleaños, piscina, accesorios, flores y detalles coquette. No representan fotografías reales del lugar ni pertenencias de Valentina. Las copas dibujadas de fecha y despedida se sustituyeron por fotografía.
 
 Se eliminó el dress code y se indica llevar ropa cómoda y traje de baño. Los textos son breves y concretos.
 

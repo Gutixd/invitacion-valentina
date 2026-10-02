@@ -47,7 +47,7 @@ export default async function Home() {
       <section className="main-collage-section watercolor" data-reveal aria-label="Collage de recuerdos"><Collage/></section>
 
       <section className="date-section watercolor" data-reveal aria-labelledby="date-title">
-        <Sparkles/><div className="editorial-photo date-photo"><Photo index={1}/><Bow className="photo-ribbon"/></div>
+        <Sparkles/><div className="editorial-photo date-photo"><Photo index={9}/><Bow className="photo-ribbon"/></div>
         <h2 id="date-title" className="sr-only">Cuándo y dónde</h2>
         <p className="script date-month">{date?.month || "Muy pronto"}</p>
         <span className="date-day">{date?.day || "—"}</span>
@@ -94,10 +94,10 @@ export default async function Home() {
       </section>
 
       <section className="goodbye-section watercolor" data-reveal aria-labelledby="goodbye-title">
-        <Sparkles/><div className="editorial-photo goodbye-photo"><Photo index={1}/><Bow className="photo-ribbon"/></div>
+        <Sparkles/><div className="editorial-photo goodbye-photo"><Photo index={14}/><Bow className="photo-ribbon"/></div>
         <h2 id="goodbye-title" className="script goodbye-title">See<br/><span>you!</span></h2>
         <p className="body-copy">10 de octubre · 12:00</p>
-        <div className="final-polaroid"><span className="paint-stroke" aria-hidden="true"/><span className="tape final-tape" aria-hidden="true"/><Photo index={0} caption={`${event.name} · 22`}/></div>
+        <div className="final-polaroid"><span className="paint-stroke" aria-hidden="true"/><span className="tape final-tape" aria-hidden="true"/><Photo index={15} caption={`${event.name} · 22`}/></div>
         <p className="eyebrow final-date">{date ? `${date.day} · ${date.monthNumber} · ${date.year}` : "PRÓXIMAMENTE"} <span>♡</span> {event.city}</p>
       </section>
 

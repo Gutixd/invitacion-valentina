@@ -27,3 +27,7 @@ Generadas con image_gen.imagegen y optimizadas a WebP 1200 × 1200, calidad 88.
 - coquette-beauty.webp: maquillaje, perfume sin marca, crema, cartera y pendientes sobre encaje; ideas de regalos.
 
 Son escenas decorativas generadas, sin personas ni marcas; no documentan la parcela real.
+
+## Serie fotográfica sin repeticiones
+
+12 nuevas fotografías coquette hiperrealistas, archivos coquette-unique-1.webp a coquette-unique-12.webp, optimizados a 1200 px y WebP calidad 90. Lente editorial, luz natural, texturas físicas, sin personas, marcas ni texto. Se conservan las cuatro fotos anteriores en un único espacio cada una; total 16 fotografías distintas. Los sujetos y prompts están en unique-image-prompts.json.
