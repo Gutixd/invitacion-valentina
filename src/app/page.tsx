@@ -1,6 +1,6 @@
 import Image from "next/image";
 import QRCode from "qrcode";
-import { event, getEventDateParts } from "@/config/event";
+import { event, getEventDateParts, getGoogleCalendarUrl } from "@/config/event";
 import { Bow, PartyGlass, Sparkles } from "@/components/artwork";
 import { Countdown } from "@/components/interactions";
 import { InvitationEffects } from "@/components/invitation-effects";
@@ -40,6 +40,7 @@ export default async function Home() {
         <p className="script venue-name">{event.venue}</p>
         <address>{event.address}<br/>{event.city}, {event.country}</address>
         <a className="text-link" href={event.mapsUrl} target="_blank" rel="noopener noreferrer">Cómo llegar <span aria-hidden="true">↗</span></a>
+        <a className="text-link" href={getGoogleCalendarUrl()} target="_blank" rel="noopener noreferrer">Guardar en Google Calendar <span aria-hidden="true">↗</span></a>
         <p className="body-copy small-copy">Ven con ropa cómoda<br/><strong>y trae tu traje de baño.</strong></p>
       </section>
 

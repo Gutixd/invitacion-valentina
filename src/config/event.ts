@@ -37,3 +37,20 @@ export function getEventDateParts(dateTime = event.dateTime) {
     year: new Intl.DateTimeFormat("es-CL", { ...options, year: "numeric" }).format(date),
   };
 }
+
+// Enlace "Agregar a Google Calendar". Duración estimada: edita durationHours si hace falta.
+const durationHours = 5;
+export function getGoogleCalendarUrl() {
+  const start = new Date(event.dateTime);
+  const end = new Date(start.getTime() + durationHours * 3600_000);
+  const fmt = (d: Date) => d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  const params = new URLSearchParams({
+    action: "TEMPLATE",
+    text: `Cumpleaños de ${event.name} (${event.age})`,
+    dates: `${fmt(start)}/${fmt(end)}`,
+    details: "Ven con ropa cómoda y trae tu traje de baño.",
+    location: `${event.address}, ${event.city}, ${event.country}`,
+    ctz: event.timezone,
+  });
+  return `https://calendar.google.com/calendar/render?${params.toString()}`;
+}
