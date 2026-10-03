@@ -39,7 +39,6 @@ Todo el contenido configurable está en `src/config/event.ts`:
 - `rsvpDeadline`: fecha ISO límite de confirmación, opcional.
 - `albumUrl`: enlace del álbum. Si está vacío, el botón indica “Álbum próximamente”.
 - `musicSrc`: ruta local del audio; por ejemplo `/audio/cancion.mp3`. Copia el archivo en `public/audio`. La música solo comienza al pulsar reproducir.
-- `photos`: rutas de imágenes, descripciones alternativas y posiciones del recorte. Guarda las fotos en `public/images`.
 - `hashtag`: se propone `#Valentina22`; se puede cambiar.
 - `giftMessage`, `giftIdeas` y `giftDetails`: ideas de regalo editables.
 - `mapsEmbedUrl`: mapa visible con búsqueda de la dirección.

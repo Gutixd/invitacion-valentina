@@ -20,27 +20,6 @@ export const event = {
   giftIdeas: ["Maquillaje", "Perfume", "Accesorios", "Bolsos / carteras", "Cremas"],
   giftDetails: "" as string,
   musicSrc: "" as string, // Por ejemplo: "/audio/cancion.mp3".
-  photos: [
-    { src: "/images/birthday-still-life.webp", alt: "Pastel rosa, lazos y globos de corazón; imagen decorativa provisional", position: "35% 65%" },
-    { src: "/images/coquette-lemonade.webp", alt: "Limonadas rosas con lazos sobre una mesa de encaje", position: "50% 50%" },
-    { src: "/images/coquette-pool.webp", alt: "Traje de baño rosa, toalla y accesorios junto a la piscina", position: "50% 50%" },
-    { src: "/images/coquette-beauty.webp", alt: "Maquillaje, perfume, crema, cartera rosa y accesorios", position: "50% 50%" },
-    ...[
-      "Ballerinas de satén rosa con lazos sobre encaje",
-      "Pastel rosa de corazón con frambuesas",
-      "Peonías rosas en un jarrón de cristal",
-      "Collar de perlas y lazo rosa en una bandeja",
-      "Cesta de picnic con fresas y tela de cuadros rosa",
-      "Mesa de cumpleaños con flores y servilletas con lazos",
-      "Flotador rosa junto al agua de la piscina",
-      "Tarta de fresas y crema en un plato rosa",
-      "Accesorios de pelo y gafas sobre una toalla",
-      "Frasco de perfume con pétalos de rosa",
-      "Limonadas con fresas en vasos sobre una mesa",
-      "Caja de regalo rosa con lazo de satén y flores",
-    ].map((alt, index) => ({ src: `/images/coquette-unique-${index + 1}.webp`, alt, position: "50% 50%" })),
-  ],
-  photosAreProvisional: true,
   detailsAreProvisional: false,
   footer: "Valentina · 22 · 10.10.2026",
 };
