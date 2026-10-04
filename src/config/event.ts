@@ -4,16 +4,16 @@ export const event = {
   age: 22,
   timezone: "America/Santiago",
   // Fecha real confirmada; Santiago utiliza UTC-03:00 el 10 de octubre de 2026.
-  dateTime: "2026-10-10T12:00:00-03:00" as string,
-  venue: "Parcela 21",
-  address: "Camino Las Flores, Parcela 21",
+  dateTime: "2026-10-10T10:00:00-03:00" as string,
+  venue: "Padre Hurtado",
+  address: "San Luis 400",
   city: "Padre Hurtado",
   country: "Chile",
   // Se abre una búsqueda de la dirección, no un pin de coordenadas sin verificar.
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Camino%20Las%20Flores%2C%20Parcela%2021%2C%20Padre%20Hurtado%2C%20Chile",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=San%20Luis%20400%2C%20Padre%20Hurtado%2C%20Chile",
   rsvpDeadline: "" as string,
-  rsvpUrl: `https://wa.me/56995630607?text=${encodeURIComponent("Hola Valentina 💗 Confirmo mi asistencia a tu cumpleaños el 10 de octubre de 2026 a las 12:00.")}`,
-  mapsEmbedUrl: "https://maps.google.com/maps?q=Camino%20Las%20Flores%20Parcela%2021%2C%20Padre%20Hurtado%2C%20Chile&output=embed",
+  rsvpUrl: `https://wa.me/56995630607?text=${encodeURIComponent("Hola Valentina 💗 Confirmo mi asistencia a tu cumpleaños el 10 de octubre de 2026 a las 10:00.")}`,
+  mapsEmbedUrl: "https://maps.google.com/maps?q=San%20Luis%20400%2C%20Padre%20Hurtado%2C%20Chile&output=embed",
   albumUrl: "" as string,
   hashtag: "#Valentina22", // Sugerencia editable.
   giftMessage: "Si buscas ideas para un regalo, estas son algunas cosas que me gustan:",

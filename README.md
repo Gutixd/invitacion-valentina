@@ -7,8 +7,8 @@ Web local en Next.js, TypeScript y App Router, preparada para publicar después 
 - Nombre: Valentina.
 - Edad: 22 años.
 - Fecha: sábado 10 de octubre de 2026.
-- Hora: 12:00 (mediodía), America/Santiago.
-- Dirección: Camino Las Flores, Parcela 21, Padre Hurtado, Chile.
+- Hora: 10:00, America/Santiago.
+- Dirección: San Luis 400, Padre Hurtado, Chile.
 
 El mapa integrado y el botón “Cómo llegar” abren una búsqueda en Google Maps con la dirección exacta proporcionada. No se han inventado coordenadas de la parcela. Si tienes un enlace del pin exacto, reemplaza `mapsUrl` en la configuración.
 
